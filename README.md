@@ -1,5 +1,5 @@
 # win32lfn-python3
-This is a modified version of [the original](https://foss.heptapod.net/mercurial/win32lfn) extension that supports Python 3. It's not extensively tested yet but it seems to be working for me with Mercurial/TortoiseHg 6.5.1 (which appears to bundle Python 3.9.13).
+This is a modified version of [the original](https://foss.heptapod.net/mercurial/win32lfn) extension that supports Python 3. It's not extensively tested yet but it seems to be working for me on Windows 10 (build 19045) with Mercurial/TortoiseHg 6.5.1 (which appears to bundle Python 3.9.13).
 
 Python 3 appears to have fixed some issues with handling of long paths, so less work required by this extension to fix issues. I've commented out a few lines that appear to be no longer necessary.
 
